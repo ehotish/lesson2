@@ -1,0 +1,19 @@
+
+mixin Button(text , type , style , width)
+    if type == 'purple'
+        if style == "arrow"
+            if width == 'Longer'
+                button.__PurpleButton.__ButtonArrow.__Longer(onclick="location.href='https://you-hands.ru';")=text
+                    img(src="img/arrow_forward.svg", alt="")
+            if width == 'Shorter'
+                button.__PurpleButton.__ButtonArrow.__Shorter(onclick="location.href='https://you-hands.ru';")=text
+        if style =='NotArrow'
+            if width == 'Longer'
+                button.__PurpleButton.__Longer(onclick="location.href='https://you-hands.ru';")=text
+            if width == 'Shorter'
+                button.__PurpleButton.__Shorter(onclick="location.href='https://you-hands.ru';")=text
+    if type == 'White'
+        if style == 'Bordered'
+            button.__WhiteButton.__Shorter(onclick="location.href='https://you-hands.ru';")=text 
+        if style == 'NotBordered'
+            button.__NoneBorderButton(onclick="location.href='https://you-hands.ru';")=text 

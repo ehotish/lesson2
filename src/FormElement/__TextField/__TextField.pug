@@ -1,0 +1,10 @@
+link(rel="stylesheet", href="__TextField.css")
+mixin TextField(text)
+    if text == "Email"
+        input.__TextField(type="text" name="EmailUser" placeholder="Email")
+    if text == "Password"
+        input.__TextField(type="text" name="PasswordUser" placeholder="Пароль")
+    if text == "Name"
+        input.__TextField(type="text" name="PasswordUser" placeholder="Имя")
+    if text == "Family"
+        input.__TextField(type="text" name="PasswordUser" placeholder="Фамилия")

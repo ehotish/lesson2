@@ -1,0 +1,49 @@
+button{
+    outline: none;
+    border-radius: 1.52vw;
+    font-size: 0.833vw;
+    box-shadow: none;
+    border-style: solid;
+    padding: 0.5vw;
+
+}
+.__PurpleButton{
+    background: linear-gradient(0deg, #BC9CFF,#8BA4F9);
+    border-color: transparent;
+    color: white;
+    &:hover{
+        opacity: 50%;
+    }
+}
+.__ButtonArrow{
+    &  img{
+        float: right;
+        height: 1.05vw;
+    }
+}
+.__WhiteButton{
+    background: white;
+    color: #BC9CFF;
+    border-color:#BC9CFF;
+    &:hover{
+        opacity: 50%;
+    }
+
+}
+.__NoneBorderButton{
+    border: none;
+    background: white;
+    color: #BC9CFF;
+    &:hover{
+        color: #1F2041;
+        opacity: 50%;
+    }
+}
+.__Longer{
+    width: 320px/1440px*100%;
+    height: 3.1vw;
+}
+.__Shorter{
+    width: 99px/1440px*100%;
+    height: 3.1vw;
+}

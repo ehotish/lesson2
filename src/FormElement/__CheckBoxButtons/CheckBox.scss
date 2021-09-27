@@ -1,0 +1,9 @@
+.__checkbox{
+        width: 20px/1440px*100%;
+        border-color: #1F2041;
+        opacity: 25%;
+        &:checked{
+            border-color: #BC9CFF;
+            background-color: white;
+        }
+}

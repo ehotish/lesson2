@@ -1,0 +1,11 @@
+.__checkbox {
+  width: 1.38889%;
+  border-color: #1F2041;
+  opacity: 25%;
+}
+
+.__checkbox:checked {
+  border-color: #BC9CFF;
+  background-color: white;
+}
+/*# sourceMappingURL=CheckBox.css.map */

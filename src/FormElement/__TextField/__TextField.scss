@@ -1,0 +1,16 @@
+.__TextField{
+    margin: 0%;
+    padding: 0%;
+    width: 260px/1440px*100%;
+    height: 3.05vw;
+    border: 1px solid #1F2041;
+    border-radius: 0.27vw;
+    opacity: 0.25;
+    padding-left: 15px/1440px*100%;
+    &:focus{
+        outline: 0;
+        outline-offset: 0;
+        border: 1px solid #1F2041;
+        opacity: 0.5;
+    }
+}
